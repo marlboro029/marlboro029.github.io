@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Marlboro
+title: Never let the things you want make you forget the things you have.
 subtitle: learning
 description: Never let the things you want make you forget the things you have.
 author: Stanley CHen
@@ -68,4 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:marlboro029/marlboro029.github.io.git
+  branch: master
